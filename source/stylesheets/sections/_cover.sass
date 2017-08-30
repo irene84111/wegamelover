@@ -1,0 +1,76 @@
+#cover
+  +size(100%,900px)
+  background: url(../images/bg-grid.svg) 50% 115% no-repeat, url(../images/bg-deco.svg) 50% 50% no-repeat, url(../images/bg-lines.svg) 50% 50% no-repeat, url(../images/bg-gradient.png) 50% 50% no-repeat
+  background-size: 100% auto, 1440px auto, cover, cover
+
+  .wegamelover
+    text-align: center
+    padding: 180px 0 80px
+
+  .event-datetime
+    ul
+      position: relative
+      list-style-type: none
+      text-align: center
+      padding: 0
+
+      li
+        position: relative
+        display: inline-block
+        font-family: Orbitron
+        font-weight: bold
+
+        &.date
+          color: #fff
+          font-size: 32px
+          background: $main
+          padding: 10px 25px 3px
+          margin: 0 75px
+
+          &:before
+            content: ""
+            position: absolute
+            +size(150px, 60px)
+            background: rgba($main,0.1)
+            top: 10px
+            left: 10px
+            z-index: -1
+
+        &.time
+          color: $main
+          font-size: 28px
+          margin: 0 58px
+
+      &.timeline
+        +size(600px,5px)
+        background: $main
+        margin: 40px auto 30px
+
+        li
+          +size(24px, 24px)
+          border-radius: 100%
+          border: 5px solid $main
+          background: $marble
+          position: absolute
+          margin-left: -12px
+          top: -10px
+          
+          &.first
+            left: 0
+
+          &.last
+            right: 0
+    
+  .coming-soon
+    +size(240px, 60px)
+    background: rgba($marble,0.5)
+    border: 1px solid $main
+    margin: 60px auto
+    text-align: center
+
+    span
+      font-family: NotoSansTC
+      font-weight: bold
+      font-size: 24px
+      line-height: 60px
+      color: $main
