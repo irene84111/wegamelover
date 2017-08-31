@@ -63,14 +63,20 @@
     
   .coming-soon
     +size(240px, 60px)
+    display: block
     background: rgba($marble,0.5)
     border: 1px solid $main
+    padding: 0
     margin: 60px auto
-    text-align: center
+    +transition(all, 0.3s)
 
-    span
-      font-family: NotoSansTC
-      font-weight: bold
-      font-size: 24px
-      line-height: 60px
-      color: $main
+    font-family: NotoSansTC
+    font-weight: bold
+    font-size: 24px
+    line-height: 60px
+    text-align: center
+    color: $main
+
+    &:hover
+      background: $main
+      color: #fff
