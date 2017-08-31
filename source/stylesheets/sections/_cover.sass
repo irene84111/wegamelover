@@ -51,11 +51,13 @@
           @media (min-width: $screen-sm)
             +size(150px, 60px)
             margin: 0 45px
-            font-size: 32px
+            font-size: 28px
             line-height: 65px
           
           @media (min-width: $screen-md)
             margin: 0 75px
+            font-size: 32px
+            line-height: 68px
 
           &:before
             content: ""
@@ -71,17 +73,18 @@
 
         &.time
           color: $main
-          font-size: 28px
-          margin: 0 32px
+          font-size: 24px
+          margin: 0 40px
 
           @media (min-width: $screen-md)
+            font-size: 28px
             margin: 0 58px
 
       &.event-date .time
         margin-left: 100px
 
       &.timeline
-        +size(5px,270px)
+        +size(5px,250px)
         background: $main
         position: absolute
         top: 23px 
@@ -111,10 +114,10 @@
             left: 0
 
           &.middle
-            top: 120px
+            top: 115px
 
           &.last
-            top: 250px
+            top: 238px
 
           @media (min-width: $screen-sm)
             margin-left: -12px
