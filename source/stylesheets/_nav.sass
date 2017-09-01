@@ -1,6 +1,11 @@
 .c-navbar
   background-color: $main
-  height: 60px
+  border-width: 0
+  min-height: 60px
+  margin: 0
+
+  @media (min-width: $screen-sm)
+    padding: 20px
 
   a
     padding: 0 !important
@@ -9,12 +14,53 @@
   svg
     height: 20px
 
-  .navbar-brand
-    height: 100%
+  .navbar-header
+    /* Button */
+    .navbar-toggle
+      border-width: 0
+      margin-top: 14px
+      margin-right: 10px
 
-  .navbar-nav li a:hover
-    background-color: $main
-    opacity: 0.9
+      &:hover, &:visited, &:link, &:active
+        background-color: $main !important
 
-  @media (min-width: $screen-md)
-    padding: 20px 120px
+      .icon-bar
+        background-color: rgba(#fff, 0.9)
+
+    /* Main Logo */
+    .navbar-brand
+      max-width: 180px
+      height: 100%
+      margin: 20px auto 0
+      display: block
+      float: none
+
+      @media (min-width: $screen-sm)
+        max-width: 100%
+        margin: 0
+
+  .navbar-collapse
+    border-width: 0
+
+    .navbar-nav
+    
+      li
+        padding: 10px 0
+        margin: 0 auto
+
+        &.webackers
+          max-width: 148px
+
+        &.twitch
+          max-width: 176px
+        
+        &.facebook
+          max-width: 40px
+
+        @media (min-width: $screen-sm)
+          padding: 0 10px
+      
+        a
+          &:hover
+            background-color: $main
+            opacity: 0.9

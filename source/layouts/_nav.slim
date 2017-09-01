@@ -1,14 +1,22 @@
 nav.navbar.c-navbar.navbar-fixed-top
-  .navbar-header
-    a.navbar-brand href="#"
-      = inline_svg "main_logo/wegamers_type"
-  ul.nav.navbar-nav.navbar-right
-    li
-      a href="https://www.webackers.com/" target="_blank"
-        = inline_svg "main_logo/webackers_white"
-    li
-      a href="https://www.twitch.tv/" target="_blank"
-        = inline_svg "main_logo/power_by_twitch"
-    li
-      a href="https://www.facebook.com/WeGamerslove" target="_blank"
-        = inline_svg "main_logo/icon_facebook"
+  .container-fluid
+    .navbar-header
+      button.navbar-toggle.collapsed aria-expanded="false" data-target="#navbar-collapse" data-toggle="collapse" type="button" 
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand href="#"
+        = inline_svg "main_logo/wegamers_type"
+
+    #navbar-collapse.collapse.navbar-collapse
+      ul.nav.navbar-nav.navbar-right
+        li.webackers
+          a href="https://www.webackers.com/" target="_blank"
+            = inline_svg "main_logo/webackers_white"
+        li.twitch
+          a href="https://www.twitch.tv/" target="_blank"
+            = inline_svg "main_logo/power_by_twitch"
+        li.facebook
+          a href="https://www.facebook.com/WeGamerslove" target="_blank"
+            = inline_svg "main_logo/icon_facebook"
