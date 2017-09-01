@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<svg version="1.1" id="frame_top" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+		viewBox="0 0 244 205" style="enable-background:new 0 0 244 205;" xml:space="preserve">
+	<style type="text/css">
+		.shadow{fill:#D2551B;fill-opacity:0.1;}
+		.base{fill:#F1F1F1;}
+		.frame{fill:#D2551B;}
+	</style>
+	<title>Deco/Frame_top</title>
+	<path class="shadow" d="M195,15H15v180L5,205V5h200L195,15z M210,15h-10l10-10h10L210,15z M223,15h-8l10-10h8L223,15z
+	 M234,15h-6l10-10h6L234,15z"/>
+	<g>
+		<polygon class="base" points="229,10 10,10 10,190 0,200 0,0 239,0 	"/>
+		<path class="frame" d="M190,10H10v180L0,200L0,0l200,0L190,10z M205,10h-10l10-10l10,0L205,10z M218,10h-8l10-10
+			l8,0L218,10z M229,10h-6l10-10l6,0L229,10z"/>
+	</g>
+</svg>
