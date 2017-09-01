@@ -1,4 +1,10 @@
 section#activity
-  .activity-banner
-    = image_tag "images/activity_ps4.png", class:"activity-image"
-    = inline_svg "activity_word"
+  a.activity-banner href="http://hyperurl.co/wegamerslove" target="_blank"
+    .activity-image
+      = image_tag "images/activity_ps4_mobile.png", class:"visible-xs"
+      = image_tag "images/activity_ps4.png", class:"hidden-xs"
+    .activity-word
+      .visible-xs
+        = inline_svg "activity_word_mobile"
+      .hidden-xs
+        = inline_svg "activity_word"
