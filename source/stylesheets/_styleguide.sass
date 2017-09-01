@@ -6,6 +6,20 @@ $paper: #FAFAFA
 
 body
   background-color: $marble
+  font-family: 'Noto Sans TC', sans-serif
 
 a:hover, a:visited, a:link, a:active
   text-decoration: none
+
+svg
+  width: 100%
+
+.visible-xs
+  display: block
+  @media (min-width: $screen-sm)
+    display: none
+
+.hidden-xs
+  display: none
+  @media (min-width: $screen-sm)
+    display: block

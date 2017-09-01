@@ -1,13 +1,33 @@
 #cover
-  +size(100%,900px)
+  width: 100%
   background: url(../images/bg-grid.svg) 50% 115% no-repeat, url(../images/bg-deco.svg) 50% 50% no-repeat, url(../images/bg-lines.svg) 50% 50% no-repeat, url(../images/bg-gradient.png) 50% 50% no-repeat
-  background-size: 100% auto, 1440px auto, cover, cover
+  background-size: 215% auto, 1440px auto, cover, cover
+  padding: 60px 0
+  @media (min-width: $screen-sm)
+    padding: 80px 0
+  
+  @media (min-width: $screen-sm)
+    background-size: 100% auto, 1440px auto, cover, cover
 
   .wegamelover
+    width: 100%
     text-align: center
-    padding: 180px 0 80px
+    
+    @media (min-width: $screen-sm)
+      padding-top: 60px
+
+    svg
+      width: 280px
+      @media (min-width: $screen-sm)
+        width: 400px
 
   .event-datetime
+    position: relative
+    margin: 40px 0
+
+    @media (min-width: $screen-sm)
+      margin: 60px 0
+
     ul
       position: relative
       list-style-type: none
@@ -16,35 +36,73 @@
 
       li
         position: relative
-        display: inline-block
         font-family: Orbitron
         font-weight: bold
 
+        @media (min-width: $screen-sm)
+          display: inline-block
+
         &.date
-          color: #fff
-          font-size: 32px
+          +size(120px, 50px)
           background: $main
-          padding: 10px 25px 3px
-          margin: 0 75px
+          margin: 20px auto
+          color: #fff
+          font-size: 24px
+          text-align: center
+          line-height: 55px
+
+          @media (min-width: $screen-sm)
+            +size(150px, 60px)
+            margin: 0 45px
+            font-size: 28px
+            line-height: 65px
+          
+          @media (min-width: $screen-md)
+            margin: 0 75px
+            font-size: 32px
+            line-height: 68px
 
           &:before
             content: ""
             position: absolute
-            +size(150px, 60px)
+            +size(120px, 50px)
             background: rgba($main,0.1)
             top: 10px
             left: 10px
             z-index: -1
 
+            @media (min-width: $screen-sm)
+              +size(150px, 60px)
+
         &.time
           color: $main
-          font-size: 28px
-          margin: 0 58px
+          font-size: 24px
+          margin: 0 40px
+
+          @media (min-width: $screen-md)
+            font-size: 28px
+            margin: 0 58px
+
+      &.event-date .time
+        margin-left: 100px
 
       &.timeline
-        +size(600px,5px)
+        +size(5px,250px)
         background: $main
-        margin: 40px auto 30px
+        position: absolute
+        top: 23px 
+        left: 50%
+        margin-left: -100px
+
+        @media (min-width: $screen-sm)
+          +size(480px,5px)
+          position: relative
+          top: 0
+          left: 0
+          margin: 40px auto 30px
+
+        @media (min-width: $screen-md)
+          width: 600px
 
         li
           +size(24px, 24px)
@@ -52,30 +110,47 @@
           border: 5px solid $main
           background: $marble
           position: absolute
-          margin-left: -12px
-          top: -10px
+          margin-left: -10px
           
           &.first
+            top: -10px
             left: 0
 
+          &.middle
+            top: 115px
+
           &.last
-            right: 0
+            top: 238px
+
+          @media (min-width: $screen-sm)
+            margin-left: -12px
+
+            &.middle
+              top: -10px
+
+            &.last
+              top: -10px
+              right: -12px
     
   .coming-soon
-    +size(240px, 60px)
+    +size(240px, 50px)
     display: block
     background: rgba($marble,0.5)
     border: 1px solid $main
     padding: 0
-    margin: 60px auto
+    margin: 0 auto
     +transition(all, 0.3s)
 
-    font-family: NotoSansTC
     font-weight: bold
-    font-size: 24px
-    line-height: 60px
+    font-size: 20px
+    line-height: 50px
     text-align: center
     color: $main
+
+    @media (min-width: $screen-sm)
+      height: 60px
+      font-size: 24px
+      line-height: 60px
 
     &:hover
       background: $main
