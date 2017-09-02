@@ -61,6 +61,9 @@ configure :build do
 
   # Minify Javascript on build
   activate :minify_javascript
+
+  # Relative assets needed to deploy to Github Pages
+  activate :relative_assets
 end
 
 activate :sprockets
