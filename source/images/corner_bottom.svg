@@ -2,10 +2,10 @@
 <svg version="1.1" id="corner_bottom" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
 	<style type="text/css">
-		.base{fill:#F1F1F1;}
-		.line{fill:none;stroke:#C9531F;stroke-miterlimit:10;}
+		.corner_base{fill:#F1F1F1;}
+		.corner_line{stroke:#C9531F}
 	</style>
 	<title>Deco/corner_bottom</title>
-	<polygon class="base" points="60,60 0,60 0,0 "/>
-	<line class="line" x1="60" y1="60" x2="0" y2="0"/>
+	<polygon class="corner_base" points="60,60 0,60 0,0 "/>
+	<line class="corner_line" x1="60" y1="60" x2="0" y2="0"/>
 </svg>

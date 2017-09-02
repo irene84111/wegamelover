@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" id="corner_top" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
-<style type="text/css">
-	.base{fill:#F1F1F1;}
-	.line{stroke:#C9531F}
-</style>
-<title>Deco/corner_top</title>
-<polygon class="base" points="0,0 60,0 60,60 "/>
-<line class="line" x1="0" y1="0" x2="60" y2="60"/>
+	<style type="text/css">
+		.corner_base{fill:#F1F1F1;}
+		.corner_line{stroke:#C9531F}
+	</style>
+	<title>Deco/corner_top</title>
+	<polygon class="corner_base" points="0,0 60,0 60,60 "/>
+	<line class="corner_line" x1="0" y1="0" x2="60" y2="60"/>
 </svg>
