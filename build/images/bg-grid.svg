@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="407px" viewBox="0 0 1440 407" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>Cover/Grid</title>
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.300000012">
+    <g transform="translate(0.000000, -469.000000)" stroke="#C9531F">
+      <g transform="translate(0.000000, 75.000000)">
+        <g id="grid" transform="translate(0.000000, 394.000000)">
+          <path d="M0,0.5 L1440,0.5" id="Shape"></path>
+          <path d="M0,8.7 L1440,8.7" id="Shape"></path>
+          <path d="M0,16.6 L1440,16.6" id="Shape"></path>
+          <path d="M0,25.3 L1440,25.3" id="Shape"></path>
+          <path d="M0,35.3 L1440,35.3" id="Shape"></path>
+          <path d="M0,45.3 L1440,45.3" id="Shape"></path>
+          <path d="M0,57.1 L1440,57.1" id="Shape"></path>
+          <path d="M0,69.4 L1440,69.4" id="Shape"></path>
+          <path d="M0,82.2 L1440,82.2" id="Shape"></path>
+          <path d="M0,97.9 L1440,97.9" id="Shape"></path>
+          <path d="M0,114.3 L1440,114.3" id="Shape"></path>
+          <path d="M0,131 L1440,131" id="Shape"></path>
+          <path d="M0,152.7 L1440,152.7" id="Shape"></path>
+          <path d="M0,175.7 L1440,175.7" id="Shape"></path>
+          <path d="M0,202.5 L1440,202.5" id="Shape"></path>
+          <path d="M0,232.5 L1440,232.5" id="Shape"></path>
+          <path d="M0,266.2 L1440,266.2" id="Shape"></path>
+          <path d="M0,307.2 L1440,307.2" id="Shape"></path>
+          <path d="M0,355.5 L1440,355.5" id="Shape"></path>
+          <path d="M720,0.5 L719.8,787.3" id="Shape"></path>
+          <path d="M759.7,0.5 L908.2,787.1" id="Shape"></path>
+          <path d="M799.8,0.5 L1096.6,783" id="Shape"></path>
+          <path d="M839.9,0.5 L1285,787.1" id="Shape"></path>
+          <path d="M880,0.5 L1440,740.7" id="Shape"></path>
+          <path d="M920,0.5 L1440,550.8" id="Shape"></path>
+          <path d="M960.2,0.6 L1440,424" id="Shape"></path>
+          <path d="M1000.2,0.5 L1440,332.7" id="Shape"></path>
+          <path d="M1040.3,0.6 L1440,265.3" id="Shape"></path>
+          <path d="M1080.4,0.6 L1440,212.3" id="Shape"></path>
+          <path d="M1120.5,0.6 L1440,174.3" id="Shape"></path>
+          <path d="M1161.5,0.5 L1440,135" id="Shape"></path>
+          <path d="M1201.6,0.5 L1440,106.8" id="Shape"></path>
+          <path d="M1241.8,0.5 L1440,81.3" id="Shape"></path>
+          <path d="M1281.2,0.7 L1440,60.8" id="Shape"></path>
+          <path d="M1322.2,0.5 L1440,44" id="Shape"></path>
+          <path d="M1362.3,0.5 L1439.7,27.5" id="Shape"></path>
+          <path d="M1402.4,0.5 L1440,13.2" id="Shape"></path>
+          <path d="M680.9,0.5 L532.5,787.1" id="Shape"></path>
+          <path d="M640.8,0.5 L344.1,783" id="Shape"></path>
+          <path d="M600.7,0.5 L155.7,787.1" id="Shape"></path>
+          <path d="M560.6,0.5 L0.6,740.7" id="Shape"></path>
+          <path d="M520.6,0.5 L0.6,550.8" id="Shape"></path>
+          <path d="M480.5,0.6 L0.6,424" id="Shape"></path>
+          <path d="M440.5,0.5 L0.6,332.7" id="Shape"></path>
+          <path d="M400.4,0.6 L0.6,265.3" id="Shape"></path>
+          <path d="M360.2,0.6 L0.6,212.3" id="Shape"></path>
+          <path d="M320.1,0.6 L0.6,174.3" id="Shape"></path>
+          <path d="M279.1,0.5 L0.6,135" id="Shape"></path>
+          <path d="M239,0.5 L0.6,106.8" id="Shape"></path>
+          <path d="M198.9,0.5 L0.6,81.3" id="Shape"></path>
+          <path d="M159.5,0.7 L0.6,60.8" id="Shape"></path>
+          <path d="M118.5,0.5 L0.6,44" id="Shape"></path>
+          <path d="M78.4,0.5 L1,27.5" id="Shape"></path>
+          <path d="M38.2,0.5 L0.6,13.2" id="Shape"></path>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
