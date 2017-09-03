@@ -23,7 +23,7 @@ git subtree split --prefix build -b gh-pages
 ```
 
 ### Setp 2
-Force the push of the gh-pages branch to the remote gh-pages branch at origin
+Force the push of the `gh-pages` branch to the remote `gh-pages` branch at origin
 ```
 git push -f origin gh-pages:gh-pages
 ```
