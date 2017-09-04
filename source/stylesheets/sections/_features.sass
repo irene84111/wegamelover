@@ -1,0 +1,126 @@
+#features
+  width: 100%
+  background: url(../images/bg-grid.svg) 50% 100% no-repeat
+  background-size: 100% auto
+
+  @media (min-width: $screen-md)
+    background: url(../images/bg-grid.svg) 50% 220px no-repeat
+    background-size: 100% auto
+
+  .features
+    width: 100%
+    position: relative
+    margin: 0 auto
+
+    @media (min-width: $screen-sm)
+      +size(748px, 370px)
+
+    @media (min-width: $screen-md)
+      width: 910px
+
+    .features-icon
+      position: relative
+      text-align: center
+      padding-bottom: 40px
+
+      @media (min-width: $screen-sm)
+        padding: 0
+
+        svg
+          position: absolute
+
+      .feature-button
+        position: absolute
+        background: rgba($main, 0.9)
+        padding: 5px
+        +transition(background, 0.3s)
+        margin: 0 auto
+          
+        button, a
+          position: relative
+          display: block
+          +size(100%, 100%)
+          border: 1px solid $marble
+          background: transparent
+          font-size: 28px
+          font-weight: bold
+          color: #fff
+          +transition(font-size, 0.3s)
+          z-index: 998
+          
+        &:hover
+          background: $main
+          button, a
+            font-size: 30px
+
+        &.schedule
+          +size(200px, 115px)
+          top: 57.6px
+          left: 50%
+          margin-left: -100px
+
+          @media (min-width: $screen-sm)
+            left: 0
+            margin: 0
+
+        &.twitch
+          +size(215px, 133px)
+          top: 13px
+          left: 50%
+          margin-left: -107px
+
+          @media (min-width: $screen-sm)
+            +size(260px, 162px)
+            top: 80px
+            margin-left: -130px
+
+          #broadcast
+            line-height: 1.8
+            padding: 15px 0 0
+
+            @media (min-width: $screen-sm)
+              line-height: 5.5
+              padding-top: 30px
+            
+          svg
+            display: block
+
+          #twitch
+            fill: #fff
+
+        &.products
+          +size(200px, 100px)
+          top: -92px
+          right: 50%
+          margin-right: -100px
+
+          @media (min-width: $screen-sm)
+            top: 32px
+            right: 0
+            margin: 0
+          
+      #icon_bulletin
+        width: 200px
+
+        @media (min-width: $screen-sm)
+          left: 0%
+
+      #icon_computer
+        width: 300px
+
+        @media (min-width: $screen-sm)
+          width: 360px
+          top: 66px
+          left: 50%
+          margin-left: -180px
+
+      &.robot
+        margin-top: 100px
+
+      #icon_robot
+        z-index: 999
+        width: 180px
+
+        @media (min-width: $screen-sm)
+          top: 125px
+          right: 10px

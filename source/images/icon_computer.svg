@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="icon_computer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 362 252" style="enable-background:new 0 0 362 252;" xml:space="preserve">
+	<style type="text/css">
+		.icon-line{fill:#F1F1F1;stroke:#D2551B;stroke-width:2;}
+		.icon-main{fill:#D2551B;}
+		.icon-thin-line{fill:#F1F1F1;stroke:#D2551B;}
+	</style>
+	<title>Icon/Computer</title>
+	<path id="Shape" class="icon-line" d="M325.9,190.9L325.9,190.9V16.8c0-8.3-6.7-15-15-15H51.1c-8.3,0-15,6.7-15,15V191L1,233.8v3.1
+		c0,7.4,6,13.3,13.3,13.3h333.3c7.4,0,13.3-6,13.3-13.3v-3.1L325.9,190.9z"/>
+	<path id="ScreenLine" class="icon-line" d="M36.1,190.9h289.8"/>
+	<path id="BaseLine" class="icon-line" d="M361,233.8H1"/>
+	<path id="Assist" class="icon-main" d="M203.4,242h-44.9c-3.7,0-6.7-3-6.7-6.7v-1.5H210v1.5C210.1,239.1,207.1,242,203.4,242z"/>
+	<g id="Keyboard" transform="translate(26.000000, 202.000000)">
+		<polygon id="Border" class="icon-thin-line" points="1,19.5 15.9,1.2 294.1,1.2 309,19.5 	"/>
+		<path id="Line" class="icon-thin-line" d="M4.7,15h300.6"/>
+		<path id="Line_1_" class="icon-thin-line" d="M8.4,10.4h293.2"/>
+		<path id="Line_2_" class="icon-thin-line" d="M12.2,5.8h285.6"/>
+		<path id="Line_3_" class="icon-thin-line" d="M32.3,1.2L19.1,19.5"/>
+		<path id="Line_4_" class="icon-thin-line" d="M48.7,1.2L37.2,19.5"/>
+		<path id="Line_5_" class="icon-thin-line" d="M65,1.2l-9.7,18.3"/>
+		<path id="Line_6_" class="icon-thin-line" d="M81.3,1.2l-7.9,18.3"/>
+		<path id="Line_7_" class="icon-thin-line" d="M97.7,1.2l-6.2,18.3"/>
+		<path id="Line_8_" class="icon-thin-line" d="M114,1.2l-4.4,18.3"/>
+		<path id="Line_9_" class="icon-thin-line" d="M130.4,1.2l-2.7,18.3"/>
+		<path id="Line_10_" class="icon-thin-line" d="M146.7,1.2l-0.9,18.3"/>
+		<path id="Line_11_" class="icon-thin-line" d="M163.1,1.2l0.8,18.3"/>
+		<path id="Line_12_" class="icon-thin-line" d="M179.4,1.2l2.7,18.3"/>
+		<path id="Line_13_" class="icon-thin-line" d="M195.7,1.2l4.5,18.3"/>
+		<path id="Line_14_" class="icon-thin-line" d="M212.1,1.2l6.2,18.3"/>
+		<path id="Line_15_" class="icon-thin-line" d="M228.4,1.2l8,18.3"/>
+		<path id="Line_16_" class="icon-thin-line" d="M244.8,1.2l9.7,18.3"/>
+		<path id="Line_17_" class="icon-thin-line" d="M261.1,1.2l11.5,18.3"/>
+		<path id="Line_18_" class="icon-thin-line" d="M277.5,1.2l13.2,18.3"/>
+	</g>
+	<rect id="Screen" x="51" y="16.3" class="icon-line" width="260" height="160"/>
+	<circle id="Camera" class="icon-main" cx="174.6" cy="9" r="3.2"/>
+</svg>
