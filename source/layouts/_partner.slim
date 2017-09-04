@@ -1,0 +1,20 @@
+section#partner
+  .section-title
+    h3.title 合作夥伴
+    
+  .container
+    .row
+      - data.partner.partners.gold.each do |partner|
+          .col-xs-12.col-sm-4.col-md-2.col-md-push-1
+            = link_to partner.link, target: '_blank', class:"partner gold" do
+              = image_tag 'partners/' + partner.logo, class:"partner-logo", alt: partner.name, title: partner.name
+    .row
+      - data.partner.partners.silver.each do |partner|
+          .col-xs-6.col-sm-4.col-md-2
+            = link_to partner.link, target: '_blank', class:"partner silver" do
+              = image_tag 'partners/' + partner.logo, class:"partner-logo", alt: partner.name, title: partner.name
+    .row
+      - data.partner.partners.bronze.each do |partner|
+          .col-xs-6.col-sm-3.col-md-1
+            = link_to partner.link, target: '_blank', class:"partner bronze" do
+              = image_tag 'partners/' + partner.logo, class:"partner-logo", alt: partner.name, title: partner.name
