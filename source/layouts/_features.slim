@@ -1,45 +1,99 @@
 section#features
-  .features
-    .features-icon.bulletin
-      = inline_svg "icon_bulletin"
-      .feature-button.schedule
-        button#schedule data-target="#schedule-modal" data-toggle="modal" type="button" 節目表
-    .features-icon.computer
-      = inline_svg "icon_computer"
-      .feature-button.twitch
-        a#broadcast href="https://www.twitch.tv/wegamerslove" target="_blank"
-          = inline_svg "main_logo/twitch"
-          | 直播
-    .features-icon.robot
-      = inline_svg "icon_robot"
-      .feature-button.products
-        button#products.feature-button data-target="#product-modal" data-toggle="modal" type="button" 公益週邊
+    .features
+      .features-icon.bulletin
+        = inline_svg "icon_bulletin"
+        .feature-button.schedule
+          button#schedule data-target="#schedule-modal" data-toggle="modal" type="button" 節目表
+      .features-icon.computer
+        = inline_svg "icon_computer"
+        .feature-button.twitch
+          a#broadcast href="https://www.twitch.tv/wegamerslove" target="_blank"
+            = inline_svg "main_logo/twitch"
+            | 直播
+      .features-icon.robot
+        = inline_svg "icon_robot"
+        .feature-button.products
+          button#products.feature-button data-target="#product-modal" data-toggle="modal" type="button" 公益週邊
 
 
-  /** Schedule Modal **/
-  #schedule-modal.modal.fade aria-labelledby="myModalLabel" role="dialog" tabindex="-1" 
-    .modal-dialog role="document" 
-      .modal-content
-        .modal-header
-          button.close aria-label="Close" data-dismiss="modal" type="button" 
-            span aria-hidden="true"  &times;
-          h4#myModalLabel.modal-title Modal title
-        .modal-body
-          p test
-        .modal-footer
-          button.btn.btn-default data-dismiss="modal" type="button"  Close
-          button.btn.btn-primary type="button"  Save changes
+    /** Schedule Modal **/
+    #schedule-modal.modal.fade aria-labelledby="myModalLabel" role="dialog" tabindex="-1" 
+      .modal-dialog role="document" 
+        .modal-content
+          .modal-header
+            button.close aria-label="Close" data-dismiss="modal" type="button" 
+              span aria-hidden="true"  &times;
+            h4#myModalLabel.modal-title Modal title
+          .modal-body
+ 
+          .modal-footer
+            button.btn.btn-default data-dismiss="modal" type="button"  Close
+            button.btn.btn-primary type="button"  Save changes
 
-  /** Product Modal **/
-  #product-modal.modal.fade aria-labelledby="myModalLabel" role="dialog" tabindex="-1" 
-    .modal-dialog role="document" 
-      .modal-content
-        .modal-header
-          button.close aria-label="Close" data-dismiss="modal" type="button" 
-            span aria-hidden="true"  &times;
-          h4#myModalLabel.modal-title WeGamersLove 公益週邊
-        .modal-body
-          p test
-        .modal-footer
-          button.btn.btn-default data-dismiss="modal" type="button"  Close
-          button.btn.btn-primary type="button"  Save changes
+    /** Product Modal **/
+    #product-modal.modal.fade aria-labelledby="myModalLabel" role="dialog" tabindex="-1" 
+      .modal-dialog role="document" 
+        .modal-content
+          .modal-header
+            button.close aria-label="Close" data-dismiss="modal" type="button" 
+              span aria-hidden="true"  &times;
+            h4#myModalLabel.modal-title WeGamersLove 公益週邊
+          .modal-body
+            table.table.table-hover.visible-xs
+              thead
+                tr
+                  th colspan="2" 捐款 / 抽獎贈品
+              tbody
+                - data.product.products.donate.each do |partner|
+                  tr
+                    th colspan="2" = partner.name
+                  - partner.list.each_with_index do |item, index|
+                    tr
+                      td 
+                        = index+1
+                        | .
+                      td = item
+              thead
+                tr
+                  th colspan="2" 實體活動贊助
+              tbody
+                - data.product.products.support.each do |partner|
+                  tr
+                    th colspan="2" = partner.name
+                  - partner.list.each_with_index do |item, index|
+                    tr
+                      td 
+                        = index+1
+                        | .
+                      td = item
+
+            table.table.table-hover.hidden-xs
+              thead
+                tr
+                  th colspan="3" 捐款 / 抽獎贈品
+              tbody
+                - data.product.products.donate.each do |partner|
+                  tr
+                    th rowspan="#{partner.list.length + 1}" = partner.name
+                  - partner.list.each_with_index do |item, index|
+                    tr
+                      td 
+                        = index+1
+                        | .
+                      td = item
+              thead
+                tr
+                  th colspan="3" 實體活動贊助
+              tbody
+                - data.product.products.support.each do |partner|
+                  tr
+                    th rowspan="#{partner.list.length + 1}" = partner.name
+                  - partner.list.each_with_index do |item, index|
+                    tr
+                      td 
+                        = index+1
+                        | .
+                      td = item
+
+          .modal-footer
+            button.btn.btn-default data-dismiss="modal" type="button"  Close

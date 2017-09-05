@@ -125,3 +125,61 @@
         @media (min-width: $screen-sm)
           top: 125px
           right: 10px
+
+  .modal
+    .modal-dialog
+      @media (min-width: $screen-sm)
+        width: 80%
+        max-width: 860px
+      .modal-content
+        background: $marble
+
+        .modal-header .modal-title
+          color: $midnight
+          @media (min-width: $screen-sm)
+            text-align: center
+        
+        .modal-body
+          .table
+            thead
+              th
+                border-top: 1px solid $main
+                border-bottom: 1px solid $main
+                color: $main
+                font-size: 18px
+                font-weight: normal
+                text-align: center
+
+                @media (min-width: $screen-sm)
+                  font-size: 20px
+
+            tbody
+              margin-bottom: 40px
+              th
+                color: $main
+                font-size: 16px
+                font-weight: normal
+
+                @media (min-width: $screen-sm)
+                  font-size: 18px
+                  padding: 15px
+
+                @media (min-width: $screen-sm)
+                  text-align: center
+                  vertical-align: middle
+              td
+                color: $midnight
+
+                @media (min-width: $screen-sm)
+                  font-size: 16px
+
+      .modal-footer .btn
+        background: $marble
+        border-color: $main
+        font-family: Orbitron
+        color: $main
+        +transition(all, 0.3s)
+
+        &:hover
+          background: $main
+          color: #fff
