@@ -5,7 +5,7 @@ section#donate
   .container
     .row
       - data.donate.donates.each do |donate|
-        .col-xs-12.col-sm-6.col-md-4
+        .col-xs-12.col-sm-6
             = link_to donate.link, target: '_blank', class:"donate" do
               = image_tag 'donates/' + donate.logo, class:"donate-logo", alt: donate.name, title: donate.name
               h4.donate-title = donate.name
