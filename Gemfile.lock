@@ -127,8 +127,6 @@ DEPENDENCIES
   middleman-sprockets
   sass
   slim
-  tzinfo-data
-  wdm (~> 0.1)
 
 BUNDLED WITH
    1.15.4
