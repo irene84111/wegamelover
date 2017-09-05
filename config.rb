@@ -29,7 +29,7 @@ page '/*.txt', layout: false
 
 # Helpers
 # Methods defined in the helpers block are available in templates
-set :protocol, 'https://'
+set :protocol, 'http://'
 set :host, 'www.wegamerslove.com'
 
 helpers do
