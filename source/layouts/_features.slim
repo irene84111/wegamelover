@@ -3,7 +3,7 @@ section#features
     .features-icon.bulletin
       = inline_svg "icon_bulletin"
       .feature-button.schedule
-        button#schedule type="button" 節目表
+        button#schedule data-target="#schedule-modal" data-toggle="modal" type="button" 節目表
     .features-icon.computer
       = inline_svg "icon_computer"
       .feature-button.twitch
@@ -13,4 +13,33 @@ section#features
     .features-icon.robot
       = inline_svg "icon_robot"
       .feature-button.products
-        button#products.feature-button type="button" 公益週邊
+        button#products.feature-button data-target="#product-modal" data-toggle="modal" type="button" 公益週邊
+
+
+  /** Schedule Modal **/
+  #schedule-modal.modal.fade aria-labelledby="myModalLabel" role="dialog" tabindex="-1" 
+    .modal-dialog role="document" 
+      .modal-content
+        .modal-header
+          button.close aria-label="Close" data-dismiss="modal" type="button" 
+            span aria-hidden="true"  &times;
+          h4#myModalLabel.modal-title Modal title
+        .modal-body
+          p test
+        .modal-footer
+          button.btn.btn-default data-dismiss="modal" type="button"  Close
+          button.btn.btn-primary type="button"  Save changes
+
+  /** Product Modal **/
+  #product-modal.modal.fade aria-labelledby="myModalLabel" role="dialog" tabindex="-1" 
+    .modal-dialog role="document" 
+      .modal-content
+        .modal-header
+          button.close aria-label="Close" data-dismiss="modal" type="button" 
+            span aria-hidden="true"  &times;
+          h4#myModalLabel.modal-title WeGamersLove 公益週邊
+        .modal-body
+          p test
+        .modal-footer
+          button.btn.btn-default data-dismiss="modal" type="button"  Close
+          button.btn.btn-primary type="button"  Save changes
