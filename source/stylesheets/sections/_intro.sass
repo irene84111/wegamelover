@@ -56,6 +56,24 @@
         @media (min-width: $screen-sm)
           width: 60px
 
+      #deco_vertical_line
+        width: 240px
+        left: calc( 50% - 120px)
+        bottom: 0
+
+      .deco_vertical_line
+        overflow: hidden
+        +size(240px, 140px)
+        position: absolute
+        top: -130px
+        border-top: 1px solid $main
+        left: 50%
+        margin-left: -120px
+
+        @media (min-width: $screen-sm)
+          height: 180px
+          top: -170px
+
     .intro-title
       font-size: 23px
       font-weight: bold
