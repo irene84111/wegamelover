@@ -125,3 +125,128 @@
         @media (min-width: $screen-sm)
           top: 125px
           right: 10px
+
+  .modal
+    .modal-dialog
+      @media (min-width: $screen-sm)
+        width: 80%
+        max-width: 960px
+      .modal-content
+        background: $marble
+
+        .modal-header .modal-title
+          color: $midnight
+          @media (min-width: $screen-sm)
+            text-align: center
+        
+        .modal-body
+          .table
+            display: table
+
+            thead
+              th
+                border-top: 1px solid $main
+                border-bottom: 1px solid $main
+                color: $main
+                font-size: 18px
+                font-weight: normal
+                text-align: center
+
+                @media (min-width: $screen-sm)
+                  font-size: 20px
+
+            tbody
+              th
+                color: $main
+                font-size: 18px
+                font-weight: normal
+                vertical-align: middle
+
+                @media (min-width: $screen-sm)
+                  font-size: 18px
+                  padding: 15px
+
+                @media (min-width: $screen-sm)
+                  text-align: center
+              td
+                font-size: 16px
+                color: $midnight
+                vertical-align: middle
+
+                @media (min-width: $screen-sm)
+                  font-size: 16px
+
+      .modal-footer .btn
+        background: $marble
+        border-color: $main
+        font-family: Orbitron
+        color: $main
+        +transition(all, 0.3s)
+
+        &:hover
+          background: $main
+          color: #fff
+
+  #schedule-modal
+    .nav
+      li
+        display: inline-block
+        width: calc(100% / 3)
+        padding: 0 10px
+
+        .date
+          +size(100%, 40px)
+          padding: 0
+          margin: 20px auto
+          border: 1px solid $main
+          font-family: Orbitron
+          color: $main
+          font-size: 18px
+          text-align: center
+          line-height: 45px
+
+        &.active .date
+          background: $main
+          color: #fff
+
+    thead th
+      font-family: Orbitron
+      padding-top: 12px
+
+    tbody
+      text-align: center
+
+      th
+        text-align: center
+        border-top-color: rgba($main,0.3)
+
+        @media (min-width: $screen-sm)
+          border-top-color: #ddd
+          width: 30%
+
+      td
+
+        &.game
+          @media (min-width: $screen-sm)
+            width: 40%
+
+        &.streamer
+          border-top-width: 0
+          @media (min-width: $screen-sm)
+            border-top: 1px solid #ddd
+
+        &.break-time
+          font-family: Orbitron
+          font-size: 14px
+          color: rgba($main,0.5)
+          padding-top: 12px
+
+          @media (min-width: $screen-sm)
+            border-top: 1px solid #ddd
+
+        .title
+          display: block
+          padding-bottom: 5px
+          font-size: 14px
+          font-family: Orbitron
+          color: rgba($main,0.5)

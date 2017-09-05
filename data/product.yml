@@ -1,0 +1,105 @@
+products:
+  donate:
+    - name: 'MSI 微星科技'
+      list:
+        - G27C 曲面電競顯示器
+        - DS4100 電競鍵盤
+        - DS B1 電競滑鼠
+        - DS501 電競耳機
+        - 7+10 滑鼠墊
+        - 盒裝玩偶
+    - name: '海璃 Helis'
+      list:
+        - XLTt 濾藍光時尚機能眼鏡（Xuan 款，黑銀雙前掛套組）
+        - XLTt 濾藍光時尚機能眼鏡（Cardin 款，黑金雙前掛套組）
+    - name: '叩叮學苑'
+      list:
+        - 數位 STEM 課程：叩叮學苑線上程式學習平台體驗碼
+        - 數位 STEM 課程：叩叮學苑線上程式學習平台體驗碼 *舊遊戲時代
+        - 數位 STEM 課程：Koding Gym 半自動化 STEM 教室 體驗券
+        - 數位 STEM 課程：Koding Gym半自動化STEM教室 體驗券 *舊遊戲時代
+    - name: '橘子蘋果兒童程式學苑'
+      list:
+        - 實體 STME 教材、教具 5Cs 程式課程免費試聽券
+        - Ozobot 光學機器人
+    - name: '巴哈姆特電玩資訊站'
+      list:
+        - 巴哈姆特紀念週邊組 A（隨行杯＋筆記本＋悠遊卡）
+        - 巴哈姆特紀念週邊組 B（隨行杯＋筆記本＋悠遊卡）
+    - name: 'Capcom（魔物獵人）'
+      list:
+        - 30 日通行券、狩獵生活方案 x 30 天、豪華方案 x 30 天、HL 獎品 x 1
+        - 鑰匙圈（蕾拉款）
+        - 鑰匙圈（受付娘款）
+        - 運動毛巾
+        - 馬克杯
+        - T-Shirt
+        - 天翔龍模型書檔
+    - name: 'Riot Games'
+      list:
+        - Baron Pillow 巴龍抱枕
+        - Tibbers Pillow 泰貝爾抱枕
+        - Ninja Rammus Hat 忍者拉姆斯帽
+        - Rammus Hat 拉姆斯帽
+        - EZ Statue 伊澤瑞爾銀色模型
+        - 造型虛寶 - 刺身師傅 阿卡莉
+        - 造型虛寶 - 粗魯肉販 歐拉夫
+        - 造型虛寶 - 炙烤廚娘 雷歐娜
+        - 造型虛寶 - 幽冥煞星 卡力斯
+        - 造型虛寶 - 幽冥煞星 奧莉安娜
+    - name: '舊遊戲時代'
+      list:
+        - 一年期訂閱
+        - 勇者DIY紙模型
+        - 便條紙
+        - 筆記本
+        - 創刊號社長簽名版
+    - name: '萬代南夢宮娛樂 Bandai Namco'
+      list:
+        - 鐵拳7 製作人簽名T 恤
+        - 鐵拳7 T 恤
+        - 鐵拳7 製作人簽名板
+        - 太鼓之達人填充玩偶（約 12 cm 長）*顏色隨機，以實品為準
+        - 太鼓之達人抱枕（約 30 cm 長）*顏色隨機，以實品為準
+    - name: '雷亞遊戲'
+      list:
+        - VOEZ 拍立得
+        - VOEZ 啾啾資料夾
+        - VOEZ 啾啾杯墊材料包
+        - VOEZ 海報 - 優子
+        - VOEZ海報 - 芊芊
+        - VOEZ 概念專輯
+        - Cytus
+        - Deemo
+        - Implosion
+    - name: 'Wolves Valley 狼谷娛樂'
+      list:
+        - FW 閃電狼束口迷彩後背袋
+        - FW 閃電狼隨行冷水瓶二代 杯袋組
+        - FW 閃電狼陶瓷吸水杯墊
+        - 閃電狼東方人文款T恤
+    - name: 'KOEI'
+      list:
+        - PC 三國志13 with 威力加強版 特典版（中文版）
+        - PS4 三國志13 with 威力加強版 特典版（中文版）
+        - PSV DEAD OR ALIVE Xtreme 沙灘排球 3 特典版 （中）
+        - PSV 蘇菲的鍊金工房～不可思議書的鍊金術士～特典版（中文版）
+        - PS4 菲莉絲的鍊金工房 ～不可思議旅的鍊金術士～ 特典版 (中文版)
+        - PSV 秋葉原妄想物語(中文版)
+        - PS4 進擊的巨人 (中文版)
+        - PSV 進擊的巨人 (中文版)
+        - PS4 戰國無雙4-II (中文版)
+        - PSV 戰國無雙4-II (中文版)
+        - PS4 信長之野望‧創造with威力加強版 (中文版)
+        - PS4 討鬼傳 2 (中文版)
+        - PSV 討鬼傳 2 (中文版)
+    - name: 'Bestmade 人體工學院'
+      list:
+        - Bestmade Stand 3 原木螢幕架。北美黃衫本色
+        - Bestmade Stand 3 原木螢幕架。赤楊木本色
+        - Bestmade Stand 3 原木螢幕架。赤楊木紋路＆柚木色
+  support:
+    - name: '橘子支'
+      list:
+        - 橘子果汁瓶
+        - 實況主橘子支儲值金 500 元
