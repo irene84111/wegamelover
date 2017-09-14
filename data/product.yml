@@ -15,6 +15,13 @@ products:
         - 魔物獵人 馬克杯
         - 魔物獵人 T-Shirt
     - name: |
+        卡普空
+        CAPCOM
+      list:
+        - SFV公仔 製作人小野先生簽名
+        - SFV 鑰匙圈
+        - SFV T-Shirt
+    - name: |
         台灣光榮特庫摩
         KOEI TECMO
       list:
@@ -45,7 +52,7 @@ products:
         銳玩遊戲
         Riot Games
         台灣競舞娛樂
-        Garena Taiwan 
+        Garena Taiwan
       list:
         - Baron Pillow 巴龍抱枕
         - Tibbers Pillow 泰貝爾抱枕
@@ -158,6 +165,7 @@ products:
         - Ozobot 光學機器人
   lucky_draw:
     - 微星科技 MSI - G27C 曲面電競顯示器
+    - Xbox One
     - XLTt 濾藍光時尚機能眼鏡
     - 迷你紅白機
     - 舊遊戲時代 一年期訂閱
