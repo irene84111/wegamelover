@@ -17,27 +17,27 @@ section#features
 
 
     /** Schedule Modal **/
-    #schedule-modal.modal.fade aria-labelledby="myModalLabel" role="dialog" tabindex="-1" 
-      .modal-dialog role="document" 
+    #schedule-modal.modal.fade aria-labelledby="myModalLabel" role="dialog" tabindex="-1"
+      .modal-dialog role="document"
         .modal-content
           .modal-header
-            button.close aria-label="Close" data-dismiss="modal" type="button" 
+            button.close aria-label="Close" data-dismiss="modal" type="button"
               span aria-hidden="true"  &times;
             h4#myModalLabel.modal-title WeGamersLove 節目表
           .modal-body
- 
-            ul.nav role="tablist" 
-              li.active role="presentation" 
+
+            ul.nav role="tablist"
+              li.active role="presentation"
                 a.date aria-controls="dayOne" data-toggle="tab" href="#dayOne" role="tab" 9/29
-              li role="presentation" 
+              li role="presentation"
                 a.date aria-controls="dayTwo" data-toggle="tab" href="#dayTwo" role="tab" 9/30
-              li role="presentation" 
+              li role="presentation"
                 a.date aria-controls="dayThree" data-toggle="tab" href="#dayThree" role="tab" 10/01
-            
+
             .tab-content
               /** Day 1 **/
               #dayOne.tab-pane.fade.in.active role="tabpanel"
-                table.table.table-hover.visible-xs 
+                table.table.table-hover.visible-xs
                   thead
                     tr
                       th Day 1
@@ -151,69 +151,90 @@ section#features
             button.btn.btn-default data-dismiss="modal" type="button"  Close
 
     /** Product Modal **/
-    #product-modal.modal.fade aria-labelledby="myModalLabel" role="dialog" tabindex="-1" 
-      .modal-dialog role="document" 
+    #product-modal.modal.fade aria-labelledby="myModalLabel" role="dialog" tabindex="-1"
+      .modal-dialog role="document"
         .modal-content
           .modal-header
-            button.close aria-label="Close" data-dismiss="modal" type="button" 
+            button.close aria-label="Close" data-dismiss="modal" type="button"
               span aria-hidden="true"  &times;
             h4#myModalLabel.modal-title WeGamersLove 公益週邊
           .modal-body
             table.table.table-hover.visible-xs
               thead
                 tr
-                  th colspan="2" 捐款 / 抽獎贈品
+                  th colspan="2" 捐款贈品 - 遊戲周邊
               tbody
-                - data.product.products.donate.each do |partner|
+                - data.product.products.donate_game.each do |item|
                   tr
-                    th colspan="2" = partner.name
-                  - partner.list.each_with_index do |item, index|
+                    th colspan="2" = item.name
+                  - item.list.each_with_index do |item, index|
                     tr
-                      td 
+                      td
                         = index+1
                         | .
                       td = item
               thead
                 tr
-                  th colspan="2" 實體活動贊助
+                  th colspan="2" 捐款贈品 - 其他周邊
               tbody
-                - data.product.products.support.each do |partner|
+                - data.product.products.donate_other.each do |item|
                   tr
-                    th colspan="2" = partner.name
-                  - partner.list.each_with_index do |item, index|
+                    th colspan="2" = item.name
+                  - item.list.each_with_index do |item, index|
                     tr
-                      td 
+                      td
                         = index+1
                         | .
                       td = item
+              thead
+                tr
+                  th colspan="2" 抽獎贈品
+              tbody
+                - data.product.products.lucky_draw.each_with_index do |item, index|
+                  tr
+                    td
+                      = index+1
+                      | .
+                    td = item
 
             table.table.table-hover.hidden-xs
               thead
                 tr
-                  th colspan="3" 捐款 / 抽獎贈品
+                  th colspan="3" 捐款贈品 - 遊戲周邊
               tbody
-                - data.product.products.donate.each do |partner|
+                - data.product.products.donate_game.each do |item|
                   tr
-                    th rowspan="#{partner.list.length + 1}" = partner.name
-                  - partner.list.each_with_index do |item, index|
+                    th rowspan="#{item.list.length + 1}" = item.name
+                  - item.list.each_with_index do |item, index|
                     tr
-                      td 
+                      td
                         = index+1
                         | .
                       td = item
               thead
                 tr
-                  th colspan="3" 實體活動贊助
+                  th colspan="3" 捐款贈品 - 其他周邊
               tbody
-                - data.product.products.support.each do |partner|
+                - data.product.products.donate_other.each do |item|
                   tr
-                    th rowspan="#{partner.list.length + 1}" = partner.name
-                  - partner.list.each_with_index do |item, index|
+                    th rowspan="#{item.list.length + 1}" = item.name
+                  - item.list.each_with_index do |item, index|
                     tr
-                      td 
+                      td
                         = index+1
                         | .
                       td = item
+              thead
+                tr
+                  th colspan="3" 抽獎贈品
+              tbody
+                - data.product.products.lucky_draw.each_with_index do |item, index|
+                  tr
+                    td colspan="3"
+                      span 
+                        = index+1
+                        | . 
+                      = item
 
           .modal-footer
             button.btn.btn-default data-dismiss="modal" type="button"  Close

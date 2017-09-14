@@ -126,7 +126,7 @@
   .modal
     .modal-dialog
       @media (min-width: $screen-sm)
-        width: 80%
+        width: 90%
         max-width: 960px
       .modal-content
         background: $marble
@@ -150,28 +150,37 @@
                 text-align: center
 
                 @media (min-width: $screen-sm)
-                  font-size: 20px
+                  font-size: 20px 
 
             tbody
               th
                 color: $main
                 font-size: 18px
                 font-weight: normal
+                text-align: center
                 vertical-align: middle
+                white-space: pre-line
+                border-top: 1px solid rgba($main, 0.1)
 
                 @media (min-width: $screen-sm)
+                  border-top: 1px solid rgb(221,221,221)
                   font-size: 18px
                   padding: 15px
 
-                @media (min-width: $screen-sm)
+                @media (min-width: $screen-md)
                   text-align: center
               td
+                height: 56px
                 font-size: 16px
                 color: $midnight
                 vertical-align: middle
+                white-space: pre-line
 
                 @media (min-width: $screen-sm)
                   font-size: 16px
+
+                span
+                  padding: 0 8px
 
       .modal-footer .btn
         background: $marble
