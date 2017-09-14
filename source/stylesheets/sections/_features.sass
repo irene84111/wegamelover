@@ -1,0 +1,258 @@
+#features
+  width: 100%
+  background: url(../images/bg-grid.svg) 50% 100% no-repeat
+  background-size: 100% auto
+  border-bottom: 1px solid rgba($main, 0.3)
+
+  @media (min-width: $screen-md)
+    background: url(../images/bg-grid.svg) 50% 220px no-repeat
+    background-size: 100% auto
+
+  .features
+    width: 100%
+    position: relative
+    margin: 0 auto
+
+    @media (min-width: $screen-sm)
+      +size(748px, 370px)
+
+    @media (min-width: $screen-md)
+      width: 910px
+
+    .features-icon
+      position: relative
+      text-align: center
+      padding-bottom: 40px
+
+      @media (min-width: $screen-sm)
+        padding: 0
+
+        svg
+          position: absolute
+
+      .feature-button
+        position: absolute
+        background: rgba($main, 0.9)
+        padding: 5px
+        +transition(background, 0.3s)
+        margin: 0 auto
+          
+        button, a
+          position: relative
+          display: block
+          +size(100%, 100%)
+          border: 1px solid $marble
+          background: transparent
+          font-size: 28px
+          font-weight: bold
+          color: #fff
+          +transition(font-size, 0.3s)
+          z-index: 998
+          
+        &:hover
+          background: $main
+          button, a
+            font-size: 30px
+
+        &.schedule
+          +size(200px, 115px)
+          top: 57.6px
+          left: 50%
+          margin-left: -100px
+
+          @media (min-width: $screen-sm)
+            left: 0
+            margin: 0
+
+        &.twitch
+          +size(215px, 133px)
+          top: 13px
+          left: 50%
+          margin-left: -107px
+
+          @media (min-width: $screen-sm)
+            +size(260px, 162px)
+            top: 80px
+            margin-left: -130px
+
+          #broadcast
+            line-height: 2
+            padding: 15px 0 0
+
+            @media (min-width: $screen-sm)
+              padding-top: 30px
+            
+          img
+            display: block
+            margin: 0 auto
+
+        &.products
+          +size(200px, 100px)
+          top: -92px
+          right: 50%
+          margin-right: -100px
+
+          @media (min-width: $screen-sm)
+            top: 32px
+            right: 0
+            margin: 0
+          
+      #icon_bulletin
+        width: 200px
+
+        @media (min-width: $screen-sm)
+          left: 0%
+
+      #icon_computer
+        width: 300px
+
+        @media (min-width: $screen-sm)
+          width: 360px
+          top: 66px
+          left: 50%
+          margin-left: -180px
+
+      &.robot
+        margin-top: 100px
+
+      #icon_robot
+        z-index: 999
+        width: 180px
+
+        @media (min-width: $screen-sm)
+          top: 125px
+          right: 10px
+
+  .modal
+    .modal-dialog
+      @media (min-width: $screen-sm)
+        width: 90%
+        max-width: 960px
+      .modal-content
+        background: $marble
+
+        .modal-header .modal-title
+          color: $midnight
+          @media (min-width: $screen-sm)
+            text-align: center
+        
+        .modal-body
+          .table
+            display: table
+
+            thead
+              th
+                border-top: 1px solid $main
+                border-bottom: 1px solid $main
+                color: $main
+                font-size: 18px
+                font-weight: normal
+                text-align: center
+
+                @media (min-width: $screen-sm)
+                  font-size: 20px 
+
+            tbody
+              th
+                color: $main
+                font-size: 18px
+                font-weight: normal
+                text-align: center
+                vertical-align: middle
+                white-space: pre-line
+                border-top: 1px solid rgba($main, 0.1)
+
+                @media (min-width: $screen-sm)
+                  border-top: 1px solid rgb(221,221,221)
+                  font-size: 18px
+                  padding: 15px
+
+                @media (min-width: $screen-md)
+                  text-align: center
+              td
+                height: 56px
+                font-size: 16px
+                color: $midnight
+                vertical-align: middle
+                white-space: pre-line
+
+                @media (min-width: $screen-sm)
+                  font-size: 16px
+
+                span
+                  padding: 0 8px
+
+      .modal-footer .btn
+        background: $marble
+        border-color: $main
+        font-family: Orbitron
+        color: $main
+        +transition(all, 0.3s)
+
+        &:hover
+          background: $main
+          color: #fff
+
+  #schedule-modal
+    .nav
+      li
+        display: inline-block
+        width: calc(100% / 3)
+        padding: 0 10px
+
+        .date
+          +size(100%, 40px)
+          padding: 0
+          margin: 20px auto
+          border: 1px solid $main
+          font-family: Orbitron
+          color: $main
+          font-size: 18px
+          text-align: center
+          line-height: 45px
+
+        &.active .date
+          background: $main
+          color: #fff
+
+    thead th
+      font-family: Orbitron
+      padding-top: 12px
+
+    tbody
+      text-align: center
+
+      th
+        text-align: center
+        border-top-color: rgba($main,0.3)
+
+        @media (min-width: $screen-sm)
+          border-top-color: #ddd
+          width: 30%
+
+      td
+
+        &.game
+          @media (min-width: $screen-sm)
+            width: 40%
+
+        &.streamer
+          border-top-width: 0
+          @media (min-width: $screen-sm)
+            border-top: 1px solid #ddd
+
+        &.break-time
+          font-family: Orbitron
+          font-size: 14px
+          color: rgba($main,0.5)
+          padding-top: 12px
+
+          @media (min-width: $screen-sm)
+            border-top: 1px solid #ddd
+
+        .title
+          display: block
+          padding-bottom: 5px
+          font-size: 14px
+          font-family: Orbitron
+          color: rgba($main,0.5)

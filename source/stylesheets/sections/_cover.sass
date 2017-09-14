@@ -12,16 +12,17 @@
     background-size: 100% auto, cover, cover
 
   .wegamelover
-    width: 100%
+    width: 90%
+    padding-top: 20px
+    margin: 0 auto
     text-align: center
     
     @media (min-width: $screen-sm)
-      padding-top: 60px
+      padding-top: 40px
 
     svg
-      width: 280px
       @media (min-width: $screen-sm)
-        width: 400px
+        max-width: 800px
 
   .event-datetime
     position: relative
@@ -62,7 +63,6 @@
           @media (min-width: $screen-md)
             margin: 0 75px
             font-size: 32px
-            line-height: 68px
 
           &:before
             content: ""
@@ -133,27 +133,39 @@
             &.last
               top: -10px
               right: -12px
-    
-  .coming-soon
-    +size(240px, 50px)
+
+  .cover-btn
     display: block
-    background: rgba($marble,0.5)
-    border: 1px solid $main
     padding: 0
-    margin: 0 auto
-    +transition(all, 0.3s)
-
-    font-weight: bold
-    font-size: 20px
-    line-height: 50px
     text-align: center
-    color: $main
 
-    @media (min-width: $screen-sm)
-      height: 60px
-      font-size: 24px
-      line-height: 58px
+    li
+      padding-top: 10px
+      margin: 0 auto
 
-    &:hover
-      background: $main
-      color: #fff
+      @media (min-width: $screen-sm)
+        padding-top: 15px
+
+      .coming-soon, .last-news
+        +size(240px, 50px)
+        display: block
+        background: rgba($marble,0.5)
+        border: 1px solid $main
+        padding: 0
+        margin: 0 auto
+        +transition(all, 0.3s)
+
+        font-weight: 500
+        font-size: 20px
+        line-height: 50px
+        text-align: center
+        color: $main
+
+        @media (min-width: $screen-sm)
+          height: 60px
+          font-size: 24px
+          line-height: 58px
+
+        &:hover
+          background: $main
+          color: #fff
