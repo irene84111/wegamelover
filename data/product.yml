@@ -1,41 +1,51 @@
 products:
-  donate:
-    - name: 'MSI 微星科技'
+  donate_game:
+    - name: |
+        台灣卡普空
+        CAPCOM TAIWAN
       list:
-        - G27C 曲面電競顯示器
-        - DS4100 電競鍵盤
-        - DS B1 電競滑鼠
-        - DS501 電競耳機
-        - 7+10 滑鼠墊
-        - 盒裝玩偶
-    - name: '海璃 Helis'
+        - |
+          魔物獵人 30 日通行券
+          a. 狩獵生活方案 x30 天
+          b. 豪華方案 x30 天
+          c. HL 獎品 x1
+        - 魔物獵人 鑰匙圈 (蕾拉款)
+        - 魔物獵人 鑰匙圈 (受付娘款)
+        - 魔物獵人 運動毛巾
+        - 魔物獵人 馬克杯
+        - 魔物獵人 T-Shirt
+    - name: |
+        台灣光榮特庫摩
+        KOEI TECMO
       list:
-        - XLTt 濾藍光時尚機能眼鏡（Xuan 款，黑銀雙前掛套組）
-        - XLTt 濾藍光時尚機能眼鏡（Cardin 款，黑金雙前掛套組）
-    - name: '叩叮學苑'
+        - PC 三國志 13 with 威力加強版 特典版 (中文版)
+        - PS4 三國志 13 with 威力加強版 特典版 (中文版)
+        - PSV DEAD OR ALIVE Xtreme 沙灘排球 3 特典版 (中文版)
+        - PSV 蘇菲的鍊金工房 ～不可思議書的鍊金術士～ 特典版 (中文版)
+        - PS4 菲莉絲的鍊金工房 ～不可思議旅的鍊金術士～ 特典版 (中文版)
+        - PSV 秋葉原妄想物語 (中文版)
+        - PS4 進擊的巨人 (中文版)
+        - PSV 進擊的巨人 (中文版)
+        - PS4 戰國無雙 4-II (中文版)
+        - PSV 戰國無雙 4-II (中文版)
+        - PS4 信長之野望‧創造 with 威力加強版 (中文版)
+        - PS4 討鬼傳 2 (中文版)
+        - PSV 討鬼傳 2 (中文版)
+    - name: |
+        台灣萬代南夢宮娛樂
+        BANDAI NAMCO
+        ENTERTAINMENT
       list:
-        - 數位 STEM 課程：叩叮學苑線上程式學習平台體驗碼
-        - 數位 STEM 課程：叩叮學苑線上程式學習平台體驗碼 *舊遊戲時代
-        - 數位 STEM 課程：Koding Gym 半自動化 STEM 教室 體驗券
-        - 數位 STEM 課程：Koding Gym半自動化STEM教室 體驗券 *舊遊戲時代
-    - name: '橘子蘋果兒童程式學苑'
-      list:
-        - 實體 STME 教材、教具 5Cs 程式課程免費試聽券
-        - Ozobot 光學機器人
-    - name: '巴哈姆特電玩資訊站'
-      list:
-        - 巴哈姆特紀念週邊組 A（隨行杯＋筆記本＋悠遊卡）
-        - 巴哈姆特紀念週邊組 B（隨行杯＋筆記本＋悠遊卡）
-    - name: 'Capcom（魔物獵人）'
-      list:
-        - 30 日通行券、狩獵生活方案 x 30 天、豪華方案 x 30 天、HL 獎品 x 1
-        - 鑰匙圈（蕾拉款）
-        - 鑰匙圈（受付娘款）
-        - 運動毛巾
-        - 馬克杯
-        - T-Shirt
-        - 天翔龍模型書檔
-    - name: 'Riot Games'
+        - 鐵拳7 製作人簽名T恤
+        - 鐵拳7 T 恤
+        - 鐵拳7 製作人簽名板
+        - 太鼓之達人填充玩偶 (約 12cm 長)*顏色隨機，以實品為準
+        - 太鼓之達人抱枕 (約 30cm 長)*顏色隨機，以實品為準
+    - name: |
+        銳玩遊戲
+        Riot Games
+        台灣競舞娛樂
+        Garena Taiwan 
       list:
         - Baron Pillow 巴龍抱枕
         - Tibbers Pillow 泰貝爾抱枕
@@ -47,59 +57,120 @@ products:
         - 造型虛寶 - 炙烤廚娘 雷歐娜
         - 造型虛寶 - 幽冥煞星 卡力斯
         - 造型虛寶 - 幽冥煞星 奧莉安娜
-    - name: '舊遊戲時代'
+    - name: |
+        暴雪娛樂
+        Blizzard Entertainment
       list:
-        - 一年期訂閱
-        - 勇者DIY紙模型
-        - 便條紙
-        - 筆記本
-        - 創刊號社長簽名版
-    - name: '萬代南夢宮娛樂 Bandai Namco'
+        - 星海爭霸 - 凱莉根 Funko 玩偶
+        - 星海爭霸 - 雷諾 Funko 玩偶
+        - 星海爭霸 - 異化蟲玩偶
+        - 爐石戰記 - 海灘巾
+        - 爐石戰記 - 電競滑鼠墊
+    - name: |
+        育碧娛樂
+        Ubisoft
       list:
-        - 鐵拳7 製作人簽名T 恤
-        - 鐵拳7 T 恤
-        - 鐵拳7 製作人簽名板
-        - 太鼓之達人填充玩偶（約 12 cm 長）*顏色隨機，以實品為準
-        - 太鼓之達人抱枕（約 30 cm 長）*顏色隨機，以實品為準
-    - name: '雷亞遊戲'
+        - 刺客教條：起源 PS4 + 遊戲T
+        - 刺客教條：起源 巴耶克公仔
+        - Just Dance 舞力全開 2018 PS4 + 遊戲潮T
+        - 刺客教條電影角色公仔 - 阿基拉
+        - 刺客教條電影角色公仔 - 瑪麗亞
+        - 虹彩六號：圍攻行動 PS4 + 4 英吋迷你公仔
+    - name: |
+        新大地亞洲
+        SNK
+      list:
+        - KOF XIV Steel Box (紀念版遊戲光碟鐵盒)
+        - KOF XIV Artbook (美術設定集)
+        - KOF Postcard (明信片)
+        - KOF XIV Clear File (資料夾)
+        - KOF XIV Fan (扇子)
+    - name: |
+        雷亞遊戲
+        Rayark
       list:
         - VOEZ 拍立得
         - VOEZ 啾啾資料夾
         - VOEZ 啾啾杯墊材料包
-        - VOEZ 海報 - 優子
-        - VOEZ海報 - 芊芊
+        - VOEZ 海報_優子
+        - VOEZ 海報_芊芊
         - VOEZ 概念專輯
-        - Cytus
-        - Deemo
-        - Implosion
-    - name: 'Wolves Valley 狼谷娛樂'
+        - Cytus App
+        - Deemo App
+        - Implosion App
+    - name: |
+        遊戲橘子
+        Gamania
       list:
-        - FW 閃電狼束口迷彩後背袋
-        - FW 閃電狼隨行冷水瓶二代 杯袋組
-        - FW 閃電狼陶瓷吸水杯墊
-        - 閃電狼東方人文款T恤
-    - name: 'KOEI'
+        - |
+          【跑跑卡丁車遊戲大禮包】
+          a. 睏寶 (30 天)
+          b. 經驗值加倍卡 (30 天)
+          c. 尖峰 9 (30 天)
+          d. TOP 150 跑車齒輪 (5 個)
+          e. 暢行無阻炫光 (100日)
+  donate_other:
+    - name: '一卡通'
       list:
-        - PC 三國志13 with 威力加強版 特典版（中文版）
-        - PS4 三國志13 with 威力加強版 特典版（中文版）
-        - PSV DEAD OR ALIVE Xtreme 沙灘排球 3 特典版 （中）
-        - PSV 蘇菲的鍊金工房～不可思議書的鍊金術士～特典版（中文版）
-        - PS4 菲莉絲的鍊金工房 ～不可思議旅的鍊金術士～ 特典版 (中文版)
-        - PSV 秋葉原妄想物語(中文版)
-        - PS4 進擊的巨人 (中文版)
-        - PSV 進擊的巨人 (中文版)
-        - PS4 戰國無雙4-II (中文版)
-        - PSV 戰國無雙4-II (中文版)
-        - PS4 信長之野望‧創造with威力加強版 (中文版)
-        - PS4 討鬼傳 2 (中文版)
-        - PSV 討鬼傳 2 (中文版)
-    - name: 'Bestmade 人體工學院'
+        - WeGamersLove 活動專屬一卡通
+    - name: '巴哈姆特'
       list:
-        - Bestmade Stand 3 原木螢幕架。北美黃衫本色
-        - Bestmade Stand 3 原木螢幕架。赤楊木本色
-        - Bestmade Stand 3 原木螢幕架。赤楊木紋路＆柚木色
-  support:
-    - name: '橘子支'
+        - 巴哈姆特紀念週邊組 A (隨行杯＋筆記本＋悠遊卡)
+        - 巴哈姆特紀念週邊組 B (隨行杯＋筆記本＋悠遊卡)
+    - name: '叩叮學苑'
       list:
-        - 橘子果汁瓶
-        - 實況主橘子支儲值金 500 元
+        - |
+          數位 STEM 課程
+          叩叮學苑線上程式學習平台體驗碼
+        - |
+          數位 STEM 課程
+          Koding Gym 半自動化 STEM 教室 體驗券
+    - name: '有病製作'
+      list:
+        - 我滿懷業障的有病桌遊 (絕版)
+        - 精裝 OST 第二代有病本本
+        - 兔兔和貓貓在旁邊 偷看你壓克力板
+    - name: '她的工具人們'
+      list:
+        - 她的工具人們SE 王者之牲 桌遊
+    - name: '迷走工作坊 & 桌遊列國'
+      list:
+        - 台北大空襲 桌遊
+        - 阿瓦隆
+        - 說書人
+        - 情書
+    - name: '微星科技 MSI'
+      list:
+        - DS4100 電競鍵盤
+        - DS B1 電競滑鼠
+        - DS501 電競耳機
+        - 7+10 滑鼠墊
+        - 盒裝玩偶
+    - name: '偃月之日'
+      list:
+        - AR 繪本書平裝版
+        - 帆布袋
+        - 遊戲原聲音樂 CD
+        - 紙膠帶
+    - name: '橘子蘋果兒童程式學苑'
+      list:
+        - 實體 STME 教材、教具 5Cs 程式課程免費試聽券
+        - Ozobot 光學機器人
+  lucky_draw:
+    - 微星科技 MSI - G27C 曲面電競顯示器
+    - XLTt 濾藍光時尚機能眼鏡
+    - 迷你紅白機
+    - 舊遊戲時代 一年期訂閱
+    - 橘子蘋果兒童程式學苑 - Ozobot 光學機器人
+    - 橘子蘋果兒童程式學苑 - 實體 STME 教材、教具 5Cs 程式課程免費試聽券
+    - Bestmade Stand 3 原木螢幕架
+    - Twitch 經典 Tshirt
+    - Twitch 禮物包 (束口袋、貼紙徽章組、開瓶器鑰匙圈)
+    - Twitch 小奇禮物組 (小奇鑰匙圈及便利貼)
+    - Twitch 小奇抱枕
+    - Twitch U 質旅行枕
+    - Twitch 酷黑帽 T
+    - 桌遊 - 台北大空襲
+    - 桌遊 - 我滿懷業障的有病桌遊 (絕版)
+    - 桌遊 - 她的工具人們SE 王者之牲
+    - WeGamersLove 活動專屬一卡通
