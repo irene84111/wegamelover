@@ -1,71 +1,37 @@
 agenda:
   dayOne:
-    - time: 18:00 ~ 20:00
-      game: 'Opening Party'
-    - time: 20:00 ~ 20:15
-      game: '快打旋風V'
-    - time: 20:15 ~ 20:20
-    - time: 20:20 ~ 21:50
-      game: '快打旋風V'
-    - time: 21:50 ~ 21:55
-    - time: 21:55 ~ 22:35
-      game: 'LOL'
-    - time: 22:35 ~ 22:40
-    - time: 22:40 ~ 23:20
-      game: 'LOL'
-    - time: 23:20 ~ 23:25
-    - time: 23:25 ~ 01:00
-      game: '絕地求生'
-    - time: 01:00 ~ 02:00
-      game: '絕地求生'
+    - time: 18:00 - 20:00
+      game: 'Twitch Opening Party'
+    - time: 20:00 - 02:00
+      game: |
+        快打旋風V
+        LOL
+        絕地求生
   dayTwo:
-    - time: 14:10 ~ 16:30
-      game: 'SPEED RUN、暗黑靈魂'
-    - time: 16:30 ~ 16:35
-    - time: 16:35 ~ 17:15
-      game: '皮卡丘打排球'
-    - time: 17:15 ~ 17:20
-    - time: 17:20 ~ 18:10
-      game: 'Minecraft'
-    - time: 18:10 ~ 18:15
-    - time: 18:15 ~ 19:05
-      game: 'Tetris'
-    - time: 19:05 ~ 19:10
-    - time: 19:10 ~ 20:30
-      game: '鐵拳7'
-    - time: 20:30 ~ 20:35
-    - time: 20:35 ~ 22:05
-      game: 'APPLE II、迷你紅白機'
-    - time: 22:05 ~ 22:10
-    - time: 22:10 ~ 00:10
-      game: 'ahq 一穿六'
-    - time: 00:10 ~ 00:15
-    - time: 00:15 ~ 02:00
-      game: 'ahq 神探擊敗狼'
+    - time: 14:00 - 19:00
+      game: |
+        Speed Run
+        黑暗靈魂
+        皮卡丘打排球
+        Minecraft
+        音速小子
+    - time: 19:00 - 02:00
+      game: |
+        鐵拳7
+        舊遊戲時代 / 迷你紅白機,蘋果 2 號
+        爐石戰記
+        狼人殺
   dayThree:
-    - time: 14:10 ~ 15:00
-      game: '跑跑卡丁車'
-    - time: 15:00 ~ 15:05
-    - time: 15:05 ~ 15:55
-      game: '爆爆王'
-    - time: 15:55 ~ 16:00
-    - time: 16:00 ~ 17:00
-      game: '魔物獵人'
-    - time: 17:00 ~ 17:05
-    - time: 17:05 ~ 18:05
-      game: '雷亞 VOEZ'
-    - time: 18:05 ~ 18:10
-    - time: 18:10 ~ 19:40
-      game: '星海 4K 復刻版'
-    - time: 19:40 ~ 19:45
-    - time: 19:45 ~ 20:45
-      game: '太鼓達人'
-    - time: 20:45 ~ 20:50
-    - time: 20:50 ~ 21:50
-      game: 'Just Dance'
-    - time: 21:50 ~ 21:55
-    - time: 21:55 ~ 23:25
-      game: 'KOF'
-    - time: 23:25 ~ 23:30
-    - time: 23:30 ~ 02:00
-      game: 'LNG 玩小遊戲'
+    - time: 14:00 - 18:00
+      game: |
+        跑跑卡丁車
+        爆爆王
+        魔物獵人
+        VOEZ
+    - time: 18:00 - 02:00
+      game: |
+        星海爭霸
+        太鼓達人
+        Just Dance
+        格鬥天王
+        LNG 小遊戲
