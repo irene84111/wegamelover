@@ -1,37 +1,58 @@
 agenda:
   dayOne:
-    - time: 18:00 - 20:00
-      game: 'Twitch Opening Party'
-    - time: 20:00 - 02:00
-      game: |
-        快打旋風V
-        LOL
-        絕地求生
+    - time: '18:00 - 20:00'
+      game: 
+        - title: 'Twitch Opening Party'
+          host: '吉祥'
+    - time: '20:00 - 02:00'
+      game:
+        - title: '快打旋風V'
+          streamer: 'Yoro、Tomy、小向、小寶、石油王、淡水、基隆東'
+        - title: '英雄聯盟 歡樂場'
+          streamer: 'Bebe、Gear、NL、Rami、Toyz 、Winds、天神，丁特 ，超負荷、蝴蝶兒，（賽評主播：Gshan 摸使）'
+        - title: '絕地求生'
+          streamer: 'GODJJ、WINDS、小建、小嵐、丁特、阿森、蛋捲、殺梗'
   dayTwo:
-    - time: 14:00 - 19:00
-      game: |
-        Speed Run
-        黑暗靈魂
-        皮卡丘打排球
-        Minecraft
-        音速小子
-    - time: 19:00 - 02:00
-      game: |
-        鐵拳7
-        舊遊戲時代 / 迷你紅白機,蘋果 2 號
-        爐石戰記
-        狼人殺
+    - time: '14:00 - 20:30'
+      game:
+        - title: 'Speedrun - 黑暗靈魂 3'
+          streamer: 'Qttsix、葉子、老皮'
+        - title: '皮卡丘打排球'
+          streamer: 'Rami，Owen'
+        - title: '你蓋我猜 - Minecraft'
+          streamer: 'Baby66、Rami、黑羽、老皮'
+        - title: '鐵拳7'
+          streamer: 'Kazuya、小莓、老皮'
+    - time: '20:30 - 02:00'
+      game:
+        - title: |
+            舊遊戲時代 - APPLE II
+            舊遊戲時代 - 迷你紅白機
+          streamer: '徐人強、呱吉、半瓶醋、李佳澤、電獺少女'
+        - title: '誰來一穿三 - 爐石戰記'
+          streamer: '羅杰、薛喜、白白'
+        - title: '神探擊敗狼 - 狼人殺'
+          streamer: '大成、偷米、羅杰、薛喜、白白、阿倫、托比、歐安、真亦、妮婭'
   dayThree:
-    - time: 14:00 - 18:00
-      game: |
-        跑跑卡丁車
-        爆爆王
-        魔物獵人
-        VOEZ
-    - time: 18:00 - 02:00
-      game: |
-        星海爭霸
-        太鼓達人
-        Just Dance
-        格鬥天王
-        LNG 小遊戲
+    - time: '14:00 - 20:45'
+      game:
+        - title: '跑跑卡丁車'
+          streamer: 'Owen、Rami、UC、小草、村村、妮妮、朔月'
+        - title: '爆爆王'
+          streamer: 'GodJJ、K7、UC、Owen、阿樂、蝴蝶兒'
+        - title: '魔物獵人 FRONTIER Z'
+          streamer: '6tan、魯蛋、葉子、安娜李、大天神'
+        - title: 'VOEZ'
+          streamer: '6tan，Qttsix，蝴蝶兒、八毛'
+        - title: '拳皇 XIV'
+          streamer: 'ET、Owen、小莓、魔王'
+        - title: '太鼓之達人 合奏咚咚咚！'
+          streamer: 'Baby66、Kazuya、Rami、阿樂'
+    - time: '20:45 - 02:00'
+      game:
+        - title: 'Just Dance 舞力全開'
+          streamer: '葉子、沁沁、安娜李、哈梓貓、咪妃娘娘、希兒'
+        - title: '星海爭霸'
+          streamer: 'Hui, Sen'
+        - title: '歡樂 Steam Time!'
+          streamer: 'K7，小熊'
