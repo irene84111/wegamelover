@@ -1,0 +1,273 @@
+section#features
+    .features
+      .features-icon.bulletin
+        = inline_svg "icon_bulletin"
+        .feature-button.schedule
+          button#schedule data-target="#schedule-modal" data-toggle="modal" type="button" 節目表
+      .features-icon.computer
+        = inline_svg "icon_computer"
+        .feature-button.twitch
+          a#broadcast href="https://www.twitch.tv/wegamerslove" target="_blank"
+            = image_tag "images/main_logo/twitch_white.png", alt:"Twitch", title:"Twitch"
+            | 直播
+      .features-icon.robot
+        = inline_svg "icon_robot"
+        .feature-button.products
+          button#products.feature-button data-target="#product-modal" data-toggle="modal" type="button" 公益週邊
+
+
+    /** Schedule Modal **/
+    #schedule-modal.modal.fade aria-labelledby="myModalLabel" role="dialog" tabindex="-1"
+      .modal-dialog role="document"
+        .modal-content
+          .modal-header
+            button.close aria-label="Close" data-dismiss="modal" type="button"
+              span aria-hidden="true"  &times;
+            h4#myModalLabel.modal-title WeGamersLove 節目表
+          .modal-body
+
+            ul.nav role="tablist"
+              li.active role="presentation"
+                a.date aria-controls="dayOne" data-toggle="tab" href="#dayOne" role="tab" 9/29
+              li role="presentation"
+                a.date aria-controls="dayTwo" data-toggle="tab" href="#dayTwo" role="tab" 9/30
+              li role="presentation"
+                a.date aria-controls="dayThree" data-toggle="tab" href="#dayThree" role="tab" 10/01
+
+            .tab-content
+              /** Day 1 **/
+              #dayOne.tab-pane.fade.in.active role="tabpanel"
+                table.table.table-hover.visible-xs
+                  thead
+                    tr
+                      th Day 1
+                  tbody
+                    - data.schedule.agenda.dayOne.each do |agenda|
+                      tr.time
+                        th = agenda.time
+                      - agenda.game.each do |item|
+                        tr
+                          td.game = item.title
+                        - if item.host?
+                          tr
+                            td.helper
+                              span.title - 主持 -
+                              = item.host
+                        - if item.streamer?
+                          tr
+                            td.helper
+                              span.title - 實況主 -
+                              = item.streamer
+                    tr
+                      td.note
+                        | PS. 名單陸續增加中，本表僅供參考，實際出席名單以當天參與的實況主為主。
+                table.table.table-hover.hidden-xs
+                  thead
+                    tr
+                      th colspan="3" Day 1
+                  tbody
+                    - data.schedule.agenda.dayOne.each do |agenda|
+                      tr.time
+                        th colspan="2" = agenda.time
+                      - agenda.game.each do |item|
+                        tr
+                          td.game = item.title
+                          - if item.host?
+                            td.helper
+                              span.title - 主持 -
+                              = item.host
+                          - if item.streamer?
+                            td.helper
+                              span.title - 實況主 -
+                              = item.streamer
+                    tr
+                      td.note colspan="2"
+                        | PS. 名單陸續增加中，本表僅供參考，實際出席名單以當天參與的實況主為主。
+              /** Day 2 **/
+              #dayTwo.tab-pane.fade role="tabpanel"
+                table.table.table-hover.visible-xs
+                  thead
+                    tr
+                      th Day 2
+                  tbody
+                    - data.schedule.agenda.dayTwo.each do |agenda|
+                      tr.time
+                        th = agenda.time
+                      - agenda.game.each do |item|
+                        tr
+                          td.game = item.title
+                        - if item.host?
+                          tr
+                            td.helper
+                              span.title - 主持 -
+                              = item.host
+                        - if item.streamer?
+                          tr
+                            td.helper
+                              span.title - 實況主 -
+                              = item.streamer
+                    tr
+                      td.note
+                        | PS. 名單陸續增加中，本表僅供參考，實際出席名單以當天參與的實況主為主。
+                table.table.table-hover.hidden-xs
+                  thead
+                    tr
+                      th colspan="3" Day 2
+                  tbody
+                    - data.schedule.agenda.dayTwo.each do |agenda|
+                      tr.time
+                        th colspan="2" = agenda.time
+                      - agenda.game.each do |item|
+                        tr
+                          td.game = item.title
+                          - if item.host?
+                            td.helper
+                              span.title - 主持 -
+                              = item.host
+                          - if item.streamer?
+                            td.helper
+                              span.title - 實況主 -
+                              = item.streamer
+                    tr
+                      td.note colspan="2"
+                        | PS. 名單陸續增加中，本表僅供參考，實際出席名單以當天參與的實況主為主。
+              /** Day 3 **/
+              #dayThree.tab-pane.fade role="tabpanel"
+                table.table.table-hover.visible-xs
+                  thead
+                    tr
+                      th Day 3
+                  tbody
+                    - data.schedule.agenda.dayThree.each do |agenda|
+                      tr.time
+                        th = agenda.time
+                      - agenda.game.each do |item|
+                        tr
+                          td.game = item.title
+                        - if item.host?
+                          tr
+                            td.helper
+                              span.title - 主持 -
+                              = item.host
+                        - if item.streamer?
+                          tr
+                            td.helper
+                              span.title - 實況主 -
+                              = item.streamer
+                    tr
+                      td.note
+                        | PS. 名單陸續增加中，本表僅供參考，實際出席名單以當天參與的實況主為主。
+                table.table.table-hover.hidden-xs
+                  thead
+                    tr
+                      th colspan="3" Day 3
+                  tbody
+                    - data.schedule.agenda.dayThree.each do |agenda|
+                      tr.time
+                        th colspan="2" = agenda.time
+                      - agenda.game.each do |item|
+                        tr
+                          td.game = item.title
+                          - if item.host?
+                            td.helper
+                              span.title - 主持 -
+                              = item.host
+                          - if item.streamer?
+                            td.helper
+                              span.title - 實況主 -
+                              = item.streamer
+                    tr
+                      td.note colspan="2"
+                        | PS. 名單陸續增加中，本表僅供參考，實際出席名單以當天參與的實況主為主。
+
+          .modal-footer
+            button.btn.btn-default data-dismiss="modal" type="button"  Close
+
+    /** Product Modal **/
+    #product-modal.modal.fade aria-labelledby="myModalLabel" role="dialog" tabindex="-1"
+      .modal-dialog role="document"
+        .modal-content
+          .modal-header
+            button.close aria-label="Close" data-dismiss="modal" type="button"
+              span aria-hidden="true"  &times;
+            h4#myModalLabel.modal-title WeGamersLove 公益週邊
+          .modal-body
+            table.table.table-hover.visible-xs
+              thead
+                tr
+                  th colspan="2" 遊戲周邊
+              tbody
+                - data.product.products.donate_game.each do |item|
+                  tr
+                    th colspan="2" = item.name
+                  - item.list.each_with_index do |item, index|
+                    tr
+                      td
+                        = index+1
+                        | .
+                      td = item
+              thead
+                tr
+                  th colspan="2" 其他周邊
+              tbody
+                - data.product.products.donate_other.each do |item|
+                  tr
+                    th colspan="2" = item.name
+                  - item.list.each_with_index do |item, index|
+                    tr
+                      td
+                        = index+1
+                        | .
+                      td = item
+              thead
+                tr
+                  th colspan="2" 抽獎贈品
+              tbody
+                - data.product.products.lucky_draw.each_with_index do |item, index|
+                  tr
+                    td
+                      = index+1
+                      | .
+                    td = item
+
+            table.table.table-hover.hidden-xs
+              thead
+                tr
+                  th colspan="3" 遊戲周邊
+              tbody
+                - data.product.products.donate_game.each do |item|
+                  tr
+                    th rowspan="#{item.list.length + 1}" = item.name
+                  - item.list.each_with_index do |item, index|
+                    tr
+                      td
+                        = index+1
+                        | .
+                      td = item
+              thead
+                tr
+                  th colspan="3" 其他周邊
+              tbody
+                - data.product.products.donate_other.each do |item|
+                  tr
+                    th rowspan="#{item.list.length + 1}" = item.name
+                  - item.list.each_with_index do |item, index|
+                    tr
+                      td
+                        = index+1
+                        | .
+                      td = item
+              thead
+                tr
+                  th colspan="3" 抽獎贈品
+              tbody
+                - data.product.products.lucky_draw.each_with_index do |item, index|
+                  tr
+                    td colspan="3"
+                      span 
+                        = index+1
+                        | . 
+                      = item
+
+          .modal-footer
+            button.btn.btn-default data-dismiss="modal" type="button"  Close

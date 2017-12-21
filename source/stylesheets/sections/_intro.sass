@@ -1,8 +1,8 @@
 #intro
-  padding: 80px 0
+  padding: 70px 0
 
   @media (min-width: $screen-sm)
-    padding: 100px 0
+    padding: 90px 0 0
 
   .intro
     position: relative
@@ -42,16 +42,16 @@
 
       #corner_top
         width: 30px
-        top: -1px
-        right: -1px
+        top: -2px
+        right: -2px
 
         @media (min-width: $screen-sm)
           width: 60px
 
       #corner_bottom
         width: 30px
-        left: -1px
-        bottom: -1px
+        left: -2px
+        bottom: -2px
 
         @media (min-width: $screen-sm)
           width: 60px
@@ -75,28 +75,40 @@
           top: -170px
 
     .intro-title
-      font-size: 23px
-      font-weight: bold
+      font-size: 24px
       color: $main
+      line-height: 1.5
       text-align: center
       margin-bottom: 40px
 
       @media (min-width: $screen-sm)
-        font-size: 28px
+        font-size: 32px
 
       @media (min-width: $screen-md)
         font-size: 36px
+
+    .intro-vedio
+      display: block
+      width: 100%
+      max-width: 400px
+      min-height: 180px
+      margin: 0 auto
+
+      @media (min-width: $screen-sm)
+        max-width: 680px
+        min-height: 382px
     
     .intro-content
       width: 100%
       max-width: 400px
       margin: 0 auto
+      padding: 40px 0 10px
 
       font-size: 16px
       color: $midnight
 
       p
-        margin-bottom: 10px
+        margin-bottom: 20px
 
       .intro-highlight
         border-top: 2px solid rgba($main, 0.1)
@@ -104,15 +116,9 @@
         padding: 30px 0 20px
         margin-top: 30px
 
-        text-align: center
-
       @media (min-width: $screen-sm)
         font-size: 18px
         max-width: 680px
-        padding: 30px 0 10px
-
-        p
-          margin-bottom: 20px
 
     .intro-logo
       display: block
@@ -131,8 +137,18 @@
         font-size: 16px
         color: $main
 
-      svg
+      img
+        width: 100%
         margin-top: 40px
+
+      .webackers
+        max-width: 257px
+
+      .twitch
+        max-width: 151px
+
+      .tesl
+        max-width: 156px
       
       @media (min-width: $screen-sm)
         width: 100%
@@ -145,7 +161,7 @@
           left: 0
           font-size: 18px
 
-        svg
+        img
           margin-top: 0
           
       &:hover span
